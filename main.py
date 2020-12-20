@@ -1,19 +1,22 @@
 from flask import Flask
+from flask import render_template
+
+# step 2: not complete
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
-    return 'Hello, World!'
+def main_page():
+    return render_template('main.html')
 
 @app.route('/shibe')
 def shibe():
-    return 'shibe'
+    return render_template('shibe.html')
 
 @app.route('/cat')
 def cat():
-    return 'cat'
+    # TODO: Your code here!
 
 @app.route('/bird')
 def bird():
-    return 'bird'
+    # TODO: Your code here!
 

@@ -14,9 +14,9 @@ def shibe():
 
 @app.route('/cat')
 def cat():
-    # TODO: Your code here!
+    return render_template('cat.html')
 
 @app.route('/bird')
 def bird():
-    # TODO: Your code here!
+    return render_template('bird.html')
 

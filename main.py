@@ -10,13 +10,13 @@ def main_page():
 
 @app.route('/shibe')
 def shibe():
-    return render_template('shibe.html')
+    return render_template('animal.html', name="Shiba Inu")
 
 @app.route('/cat')
 def cat():
-    return render_template('cat.html')
+    return render_template('animal.html', name="Cat")
 
 @app.route('/bird')
 def bird():
-    return render_template('bird.html')
+    return render_template('animal.html', name="Bird")
 

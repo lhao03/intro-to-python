@@ -20,3 +20,4 @@ def cat():
 def bird():
     return render_template('animal.html', name="Bird")
 
+# step 2 complete

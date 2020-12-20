@@ -9,11 +9,9 @@ def hello_world():
 def shibe():
     return 'shibe'
 
-@app.route('/cat')
-def cat():
-    return 'cat'
+# TODO: create the flask function for cat images
+# Your code here:
 
-@app.route('/bird')
-def bird():
-    return 'bird'
+# TODO: create the flask function for bird images
+# Your code here:
 

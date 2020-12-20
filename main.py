@@ -17,3 +17,4 @@ def cat():
 def bird():
     return 'bird'
 
+# You have completed step 1

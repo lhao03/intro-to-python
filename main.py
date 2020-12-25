@@ -1,7 +1,8 @@
 from flask import Flask
 from flask import render_template
 
-# step 2: not complete
+ENDPOINT = "http://shibe.online/api/"
+
 app = Flask(__name__)
 
 @app.route('/')

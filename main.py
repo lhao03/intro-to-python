@@ -3,7 +3,7 @@ from flask import render_template
 
 ENDPOINT = "http://shibe.online/api/"
 
-# this is step 3 incomplete
+# this is step 3 complete
 
 app = Flask(__name__)
 

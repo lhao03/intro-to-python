@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template
+from shibaAPI import check_request, get_request
 
 ENDPOINT = "http://shibe.online/api/"
 
@@ -11,6 +12,9 @@ def main_page():
 
 @app.route('/shibe')
 def shibe():
+    if (check_request(ENDPOINT + "shibes")):
+        response = get_request(ENDPOINT + "shibes")
+        return render_template('animal.html', name="Shiba Inu", img_url=response[0])
     return render_template('animal.html', name="Shiba Inu")
 
 @app.route('/cat')

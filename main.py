@@ -1,10 +1,12 @@
 from flask import Flask
 from flask import render_template
-from shibaAPI import check_request, get_request
+# TODO: import...
 
 ENDPOINT = "http://shibe.online/api/"
 
 app = Flask(__name__)
+
+# step 4 not complete
 
 @app.route('/')
 def main_page():
@@ -19,9 +21,9 @@ def shibe():
 
 @app.route('/cat')
 def cat():
-    return render_template('animal.html', name="Cat")
+    # TODO
 
 @app.route('/bird')
 def bird():
-    return render_template('animal.html', name="Bird")
+    # TODO
 

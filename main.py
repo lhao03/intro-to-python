@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template
 from shibaAPI import check_request, get_request
 
-# Step 4 complete
+# Step 4 with style
 
 ENDPOINT = "http://shibe.online/api/"
 

@@ -3,6 +3,8 @@ from flask import render_template
 
 ENDPOINT = "http://shibe.online/api/"
 
+# this is step 3 incomplete
+
 app = Flask(__name__)
 
 @app.route('/')

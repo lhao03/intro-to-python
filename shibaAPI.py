@@ -8,5 +8,4 @@ def check_request(endpoint):
 
 def get_request(endpoint):
     response = requests.get(endpoint)
-    json = response.json()
-    return json
+    # TODO: your code here
